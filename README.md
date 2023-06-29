@@ -16,3 +16,5 @@ Keep rolling until all ten of your dice show the same number
 Instead of putting the dices aside here we will hold the each die by clicking on the dice
 
 When clicked on "Roll" the selected dice will not change, but other dices will change to a random dice face between 1-6
+
+![Tenzie_Gameplay](https://github.com/sandesh2526/Tenzies-game-react/assets/56215314/099e4b9b-4ac4-4771-8442-8ab3003910be)
