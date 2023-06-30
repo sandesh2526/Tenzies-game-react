@@ -26,7 +26,7 @@ export default function Main() {
         time is less than that of stored in local storage */
     React.useEffect(() => {
         if (tenzies) {
-            console.log("Number of moves are: ", numberOfMoves);
+            console.log("Number of moves required are: ", numberOfMoves);
             const newTime = Math.floor((new Date().getTime() - time) / 1000);
             console.log(newTime);
             setTimeForCompletion(newTime)
@@ -42,7 +42,7 @@ export default function Main() {
                 localStorage.setItem("high-score", "" + parseInt(timeForCompletion))
             }
         }
-    }, [tenzies, timeForCompletion])
+    }, [tenzies, timeForCompletion, numberOfMoves, time])
 
     /* returns array of objects to create the dices*/
     function allNewDice() {

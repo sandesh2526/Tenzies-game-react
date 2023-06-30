@@ -24,7 +24,7 @@ body {
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
-  color: #800080;
+  color: rgb(102, 44, 247);
 }
 
 .time > p {
